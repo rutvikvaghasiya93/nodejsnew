@@ -27,3 +27,13 @@ org_data = buf_data.toString();
 
 // Rename file name
 fs.renameSync("read.txt", "readwrite.txt");
+
+
+// challenge Task
+// 1: Create a folder named it nodejs | Ex: fs.mkdirSync("node");
+// 2: Create a file in it named read.txt and data into it.
+// 3: Add more data into the file at the end of the existing data.
+// 4: Read the data without getting the buffer data at first
+// File encoding
+// 5: Rename the file name to readwrite.txt
+// 6: Now delete both the file and the folder
